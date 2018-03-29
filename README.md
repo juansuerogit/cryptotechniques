@@ -8,6 +8,10 @@ some codes learning how to do crytographic coding in different environments, ubu
     
     dotnet run
     BA7816BF8F01CFEA414140DE5DAE2223B00361A396177A9CB410FF61F20015AD
+
+
+    test with https://www.fileformat.info/tool/hash.htm
+    and the data: abc
     
     
 

@@ -12,15 +12,31 @@ namespace hwapp
         static void Main(string[] args)
         {
 
- 
+            //GenerateSHA256String("abc")
             Console.WriteLine( GenerateSHA256String("abc"));
 
-            //string base64String = Convert.ToBase64String(hashed, 0, hashed.Length);
-            //Console.WriteLine(base64String);
-
+            //GenerateHMACString("abc", "thekey")
+            Console.WriteLine( GenerateHMACString("abc", "thekey"));
 
 
         }
+
+
+        public static string GenerateHMACString(string stringToBeHashed, string key)
+        {
+            byte[] dataToBeHashed = Encoding.UTF8.GetBytes(stringToBeHashed);
+			byte[] keybytes = Encoding.UTF8.GetBytes(key);
+
+            var hmac = new HMACSHA256(keybytes);
+
+            byte[] hash = hmac.ComputeHash(dataToBeHashed);
+
+            return GetStringFromHash(hash);
+
+
+		}
+		
+
 
         public static string GenerateSHA256String(string inputString)
         {

@@ -1,0 +1,31 @@
+{
+    "FormattingOptions": {
+        "newLine": "\n",
+        "useTabs": false,
+        "tabSize": 4,
+        "indentationSize": 4,
+        "IndentBraces": false,
+        "NewLinesForBracesInTypes": false,
+        "NewLinesForBracesInMethods": false,
+        "NewLinesForBracesInProperties": false,
+        "NewLinesForBracesInAccessors": false,
+        "NewLinesForBracesInAnonymousMethods": false,
+        "NewLinesForBracesInControlBlocks": false,
+        "NewLinesForBracesInAnonymousTypes": false,
+        "NewLinesForBracesInObjectCollectionArrayInitializers": false,
+        "NewLinesForBracesInLambdaExpressionBody": false,
+        "editor.codeLens": false,
+        "csharpfixformat.style.braces.onSameLine": false,
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "csharp.format.enable": false,
+        "csharpfixformat.style.spaces.beforeParenthesis": false,
+        "editor.formatOnPaste": true,
+        "NewLineForElse": false,
+        "NewLineForCatch": false,
+        "NewLineForFinally": false,
+        "NewLineForMembersInObjectInit": false,
+        "NewLineForMembersInAnonymousTypes": false,
+        "NewLineForClausesInQuery": false
+    }
+}
